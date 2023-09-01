@@ -1,0 +1,6 @@
+class Pessoa:
+    def _init_(self,nome,endereco):
+     self.nome = nome
+     self.endereco = endereco
+    def mostrar_informacao(self):
+     return f"{self.nome} mora em {self.endereco.mostrar_endereco()}"
